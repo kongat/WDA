@@ -1,0 +1,314 @@
+﻿
+@font-face {
+    font-family: boldFont;
+    src: url(../fonts/ZonaPro-Bold.otf);
+}
+@font-face {
+    font-family: regularFont;
+    src: url(../fonts/ZonaPro-Regular.otf);
+
+}
+
+.navbar {
+
+    border: 0px solid transparent;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+#nav1{
+	background: #87509C ;
+}
+
+body{
+	font-family: regularFont;
+}
+
+.full-content{
+	
+	
+}
+
+#first{
+	background-color: #87509C;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:#ffffff;
+}
+
+#second{
+	background-color: #42dbb6;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:#ffffff;
+}
+
+ hr{
+	 border-color:#677684;
+	 width:6%;
+}
+ .navbar-inverse .navbar-nav>li>a {
+ 	color:#ffffff;
+ }
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+
+	background : #643A79;
+}
+#myNavbar > ul > li > a:hover, #myNavbar > ul > li > a:focus{
+	background : #643A79;
+	box-shadow: inset 0 3px 9px rgba(0,0,0,.25);
+}
+}
+
+
+/*@media (max-width: 990px) {
+     .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+
+}*/
+
+#first > div > h2{
+    padding-bottom:40px;
+}
+.btn-warning{
+	border-bottom :4px solid #eea236;}
+
+.lower-section{
+	background:#3c5499;
+	padding-top:4em;
+	padding-bottom:4em; 
+}
+
+.line-blue span{
+	background:#233b80 ;
+	display:  inline-block;
+	padding: 0.1em 2em;
+}
+.line-grey span{
+	background:grey ;
+	display:  inline-block;
+	padding: 0.1em 2em;
+}
+.line-skills span{
+	background:#DFE8ED ;
+	display:  inline-block;
+	padding: 0.1em 2em;
+}
+.lower{
+	padding-top:4em;
+}
+ 
+form input:first-child{
+	
+}
+
+form input{
+	width: 100%;
+	height: 45px;
+	background-color:#273A71;
+	border-radius:4px;
+	border:1px solid transparent;
+	display: block;
+	color:#ffffff;
+	
+	
+	
+	/*display: block;
+   
+  
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+   
+ 
+*/
+}
+form textarea{
+	width:100%;
+	height:175px;
+	background-color:#273A71;
+	border-radius:4px;
+	border:1px solid transparent;
+}
+
+::-webkit-input-placeholder { 
+    color:#ffffff;
+    padding-left:10px;
+
+}
+
+
+.button-submit{
+	background-color:#30BAE7;
+	border-radius:2px;
+	border:1px solid transparent;
+	width:200px;
+	height:45px;
+}
+
+#third{
+	background-color: #E7F1F8;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+#third {
+	color:#3C4761
+}
+
+.role{
+	color:#30BAE7;
+}
+
+.media{
+	margin-bottom:10px;
+}
+
+#fourth{
+	background-color: #D74680;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color:#ffffff;
+}
+
+.role2{
+	color:#FFDD99;
+}
+
+#fourth h3{
+	margin-bottom:0;
+	
+}
+
+#skills{
+	background-color: #FFFFFF;
+	color:#50596F;
+}
+#bar1 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky{
+	width: 100%;
+    position: fixed;
+    z-index: 1000;
+
+}
+
+/*progress bars*/
+
+.circle {
+  width: 200px;
+  margin: 6px 20px 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+}
+.circle strong {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 55px;
+  font-size: 43px;
+}
+
+
+#success-message {
+	color:#84cc85;
+}
+
+
+
+@media screen and (max-width : 992px){
+    #fourth{
+        text-align:center;
+    }
+	
+
+}
+#myNavbar > ul > li > a{
+
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 4px;
+}
+
+#footer{
+	background-color:#344B8E;
+	padding-top:25px;
+	padding-bottom:25px;
+
+	
+}
+#footer a{
+	color:#ffffff;
+
+}
+
+#footer .col-md-1 {
+	width:9.75%;
+	}
+	
+#footer .col-sm-1 {
+	width:9.75%;
+}
+
+#contact{
+	color:#ffffff
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+.error{
+	color:#db4d4b;
+}
+
+
